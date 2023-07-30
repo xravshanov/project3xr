@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: "Sen";
+}
+main{
+    .section3{
+        background-color: #F4F0F8;
+        .container{
+            max-width: 1320px;
+            padding: 0 20px;
+            margin: 0 auto;
+            // border: 1px solid red;
+            .categor-first{
+                padding: 150px 0 80px 0;
+                .categor-first-h2{
+                    font-family: Sen;
+                    font-size: 56px;
+                    font-weight: 700;
+                    line-height: 64px;
+                    letter-spacing: -2px;
+                    text-align: center;
+                    color: #232536;
+                    padding-bottom: 24px;
+                }
+                .categor-first-text{
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0px;
+                    text-align: center;
+                    color: #6D6E76;
+                    padding-bottom: 30px;
+                    // max-width: 450px;
+                }
+                .categor-first-h3{
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    letter-spacing: 3px;
+                    text-align: center;
+                    color: #232536;
+                }
+            }
+        }
+    }
+    section{
+        .container{
+            max-width: 1320px;
+            padding: 0 20px;
+            margin: 0 auto;
+            // border: 1px solid red;
+            .cate-second{
+                padding: 50px 0 70px 0;
+                .cate-form{
+                    padding-bottom: 40px;
+                    .care-input{
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #232536;
+                        padding: 10px 0px 10px 10px;
+                        width: 100%;
+                        border: 1px solid rgb(191, 189, 189);
+                        outline: none;
+                        border-radius: 3px;
+                    }
+                }
+               .cate-page{
+                .cate-item{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    // border: 1px solid red;
+                    margin-bottom: 40px;
+                    // flex-wrap: wrap;
+                    // gap: 60px;
+                    .cate-seco-img{
+                        max-width: 447px;
+                        width: 100%;
+                        height: 300px;
+                    }
+                    .cate-item1{
+                        // border: 1px solid red;
+                        max-width: 750px;
+                        width: 100%;
+                        .cate-item1-h4{
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 20px;
+                            letter-spacing: 3px;
+                            text-align: left;
+                            color: #592EA9;
+                            padding-bottom: 18px;
+                        }
+                        .cate-item1-h3{
+                            font-family: Sen;
+                            font-size: 36px;
+                            font-weight: 700;
+                            line-height: 48px;
+                            letter-spacing: -2px;
+                            text-align: left;
+                            color: #232536;
+                            padding-bottom: 30px;
+                            // max-width: 600px;
+                        }
+                        .cate-item1-text{
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 28px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #6D6E76;
+                            max-width: 680px;
+                        }
+                    }
+                }
+               }
+            }
+        }
+    }
+}
+.backtop {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    outline: none;
+    cursor: pointer;
+    padding: 8px;
+    /* opacity: 0; */
+    transition: 1s;
+  }
+  
+  .backtop img {
+    width: 100%;
+  }
